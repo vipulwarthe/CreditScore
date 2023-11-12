@@ -1,27 +1,26 @@
-# Data
-raw_dataset_path: dataset/raw/credit_risk.csv
-dataset_path: dataset/output/data.pkl
+#data
+raw_dataset_path: ../dataset/raw/credit_risk.csv
+dataset_path: ../dataset/output/data.pkl
 
-predictors_set_path: dataset/output/predictors.pkl
-response_set_path: dataset/output/response.pkl
+predictors_set_path: ../dataset/output/predictors.pkl
+response_set_path: ../dataset/output/response.pkl
 
 train_path: 
-- 'dataset/output/X_train.pkl'
-- 'dataset/output/y_train.pkl'
+- '../dataset/output/X_train.pkl'
+- '../dataset/output/y_train.pkl'
 test_path: 
-- 'dataset/output/X_test.pkl' 
-- 'dataset/output/y_test.pkl'
+- '../dataset/output/X_test.pkl' 
+- '../dataset/output/y_test.pkl'
 
-data_train_path: 'dataset/output/data_train.pkl'
-data_train_binned_path: 'dataset/output/data_train_binned.pkl'
+data_train_path: '../dataset/output/training_data.pkl'
+data_train_binned_path: '../dataset/output/bin_training_data.pkl'
 
-crosstab_list_path: 'dataset/output/crosstab_list.pkl'
-WOE_table_path: 'dataset/output/WOE_table.pkl'
-IV_table_path: 'dataset/output/IV_table.pkl'
+crosstab_list_path: '../dataset/output/list_crosstab.pkl'
+WOE_table_path: '../dataset/output/WOE_table.pkl'
+IV_table_path: '../dataset/output/IV_table.pkl'
 
-WOE_map_dict_path: 'dataset/output/WOE_map_dict.pkl'
-X_train_woe_path: 'dataset/output/X_train_woe.pkl'
-
+WOE_map_dict_path: '../dataset/output/WOE_map_dict.pkl'
+X_train_woe_path: '../dataset/output/X_train_woe.pkl'
 
 # Variables
 response_variable: 'loan_status'
