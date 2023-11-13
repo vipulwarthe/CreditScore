@@ -49,24 +49,24 @@ penalty: 'l2'
 num_of_cv: 10
 scoring: 'recall'
 
-forward_models_path: models/forward_models.pkl
-best_predictors_path: models/best_predictors_path.pkl
-best_model_path: models/best_model.pkl
-best_model_summary_path: models/best_model_summary.pkl
+forward_models_path: ../models/forward_models.pkl
+best_predictors_path: ../models/best_predictors_path.pkl
+best_model_path: ../models/best_model.pkl
+best_model_summary_path: ../models/best_model_summary.pkl
 
 
 # Scorecards
 pdo: 20
-score_ref: 300
+score_ref: 200
 odds_ref: 30
 
-scorecards_path: models/scorecards.pkl
+scorecards_path: ../models/scorecards.pkl
 
-points_map_dict_path: models/points_map_dict.pkl
-X_points_path: models/X_points.pkl
-X_train_points_path: models/X_train_points.pkl
+points_map_dict_path: ../models/points_map_dict.pkl
+X_points_path: ..//X_points.pkl
+X_train_points_path: ../models/X_train_points.pkl
 
-score_path: models/score_path.pkl
+score_path: ../models/score_path.pkl
 
 
 # api.py related
