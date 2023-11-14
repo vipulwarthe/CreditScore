@@ -63,7 +63,7 @@ odds_ref: 30
 scorecards_path: ../models/scorecards.pkl
 
 points_map_dict_path: ../models/points_map_dict.pkl
-X_points_path: ..//X_points.pkl
+X_points_path: ../models/X_points.pkl
 X_train_points_path: ../models/X_train_points.pkl
 
 score_path: ../models/score_path.pkl
