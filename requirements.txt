@@ -1,0 +1,15 @@
+matplotlib
+numpy
+pandas
+seaborn
+Flask
+Jinja2
+scipy
+scikit-learn
+gunicorn
+catboost
+xgboost
+chart-studio
+sys
+utils
+library
